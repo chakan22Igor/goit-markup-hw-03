@@ -6,53 +6,68 @@ body{
     color:#434455;
     background-color: #FFFFFF;
 }
+ul, ol{
+ list-style: none;
+ text-decoration: none;
+}
+a{
+text-decoration: none;
+}
+address{
+    text-decoration: none;
+}
 .container{
-    box-sizing: border-box;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
 /* header */
-.header-container{
+nav{
     display: flex;
-    justify-content:center;
+    margin-right: auto;
 }
-.navigation{
+.header-container {
     display: flex;
-    gap: 40px;
     align-items: center;
-    margin:0;
 }
-.navigation-list{
-    color:#2E2F42;
+.navigation {
+    display: flex;
+}
+.navigation-list {
+    margin-right: 40px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 150%;
     letter-spacing: 0.02em;
-    list-style: none;
-    text-decoration: none;
+    color: #2E2F42;
+}
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+address ul{
+    display: flex;
+}
+.telmail {
+align-items: flex-end;
+margin-right: 40px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .navigation-list:focus,
-.navigation-list:hover{
-    color:#404BBF
-}
-.studio{
-    color:#2e2f42;
-    font-size: 18px;
-    letter-spacing: 0.03em
-}
-.studio_nav{
-    color: #2E2F42
-}
-.studio_nav:focus
-.studio_nav:focus{
-    color:#404BBF;
-    text-decoration: underline;
-    letter-spacing: 0.03em
-}
-a{
-    text-decoration:none
+.navigation-list:hover,
+.address:focus,
+.address:hover,
+.telmail:focus,
+.telmail:hover{
+color: #404BBF;
 }
 .web{
 display: flex;
@@ -70,51 +85,19 @@ color:#2E2F42;
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.address{
-    display: flex;
-    gap: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-    text-decoration: none;
-    list-style: none;
-    font-style:normal;
-}
 
-.telmail{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    list-style: none;
-    font-style: normal;
-}
-.telmail:hover,
-.telmail:focus{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-    text-decoration: none;
-    list-style: none;
-    font-style: normal;
-}
-ul{
-    list-style: none;
-}
 /* Hero */
+.hero .container{
+    max-height: 600px;
+    max-width: 1158;
+}
+.hero button{
+
+}
 .hero{
     font-family:"Roboto", sans-serif;
     font-weight: 700;
@@ -125,14 +108,19 @@ ul{
     color: #ffffff;
     background-color: #2E2F42;
 }
-.button{
+.container .hero{
+
+    min-height: 599px;
+    min-width: 1158px;
+}
+.container .button{
+    display: flex;
     color:#ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     cursor: pointer;
 }
 .button:focus{
@@ -147,9 +135,17 @@ ul{
 .listben{
     background-color: #FFFFFF;
 }
-
+.container .listben{
+    display: flex;
+    min-width: 600px;
+    min-height: 343px;
+}
 /* section 2 */
+
+
 .team{
+    min-width: 600px;
+    min-height: 1158px;
     background-color: #F4F4FD;
     text-align: center;
     font-weight: 500;
@@ -158,8 +154,18 @@ ul{
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
+.team ul{
+margin-top: 229px;
+gap: 16px;
+display: flex;
+max-width: 264px;
+max-height: 380px;
+}
+.container h2{
+}
 .teamheader {
-    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
     text-align: center;
     font-weight: 500;
     font-size: 36px;
@@ -187,6 +193,20 @@ ul{
     background-color: #FFFFFF;
 }
 /* section 3 */
+/* .portfolio {
+    display: flex;
+    flex-direction: row nowrap;
+    padding: auto;
+    max-width: 1158px;
+}  */
+.container .portfolio{
+    flex-direction: row;
+    max-width: 1158px;
+    max-height: 1240px;
+    align-items: center;
+    justify-content: center;
+} 
+
 .portfolio{
     background-color: #ffffff;
     text-align: center;
@@ -221,7 +241,22 @@ ul{
 .ls-color {
     color: #FFFFFF;
     background-color: #ffffff;
+
 }
+
+/* тут проблема! */
+.portfolio .ls-color-1{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.container .portfolio{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+} 
+    
 /* footer */
 .web_footer {
     color: #4D5AE5;
