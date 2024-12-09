@@ -9,6 +9,7 @@ body{
 ul, ol{
  list-style: none;
  text-decoration: none;
+ padding-left: 0;
 }
 a{
 text-decoration: none;
@@ -21,6 +22,7 @@ address{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    
 }
 /* header */
 nav{
@@ -247,7 +249,7 @@ max-height: 380px;
 /* тут проблема! */
 .portfolio .ls-color-1{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
