@@ -44,6 +44,9 @@ nav{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.navigation-list:first-child{
+    margin-left: 28px;
+}
 .address {
     font-weight: 400;
     font-size: 16px;
@@ -53,9 +56,12 @@ nav{
 }
 address ul{
     display: flex;
+    margin-left: 175px;
 }
 .telmail {
+display:flex;
 align-items: flex-end;
+justify-content: flex-end;
 margin-right: 40px;
 font-weight: 400;
 font-size: 16px;
@@ -94,10 +100,25 @@ font-family: "Raleway", sans-serif;
 
 /* Hero */
 .hero .container{
-    max-height: 600px;
-    max-width: 1158;
+    padding: 188px 0;
+    justify-content: center;
+    width: 496px;
+    padding-left: 331px;
+    padding-right: 331px;
+    margin-bottom: 0;
+    min-height: 599px;
+    min-width: 1158px;
+    background-color: #2E2F42;
 }
-.hero button{
+.hero .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 59px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 167px;
+    height:  56px;
 
 }
 .hero{
@@ -109,11 +130,10 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     color: #ffffff;
     background-color: #2E2F42;
-}
+    padding-bottom: 0;
+} 
 .container .hero{
 
-    min-height: 599px;
-    min-width: 1158px;
 }
 .container .button{
     display: flex;
@@ -138,16 +158,19 @@ font-family: "Raleway", sans-serif;
     background-color: #FFFFFF;
 }
 .container .listben{
+    padding-top: 120px;
     display: flex;
     min-width: 600px;
     min-height: 343px;
+    padding-bottom: 120px;
 }
 /* section 2 */
 
 
 .team{
-    min-width: 600px;
-    min-height: 1158px;
+    display: flex;
+    padding-top: 0px;
+    min-height: 732px;
     background-color: #F4F4FD;
     text-align: center;
     font-weight: 500;
@@ -157,7 +180,7 @@ font-family: "Raleway", sans-serif;
     color:#2e2f42;
 }
 .team ul{
-margin-top: 229px;
+margin-top: 72px;
 gap: 16px;
 display: flex;
 max-width: 264px;
@@ -175,6 +198,8 @@ max-height: 380px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 0px;
 }
 .names{
     font-weight: 500;
@@ -194,6 +219,9 @@ max-height: 380px;
     text-transform: capitalize;
     background-color: #FFFFFF;
 }
+.team .container{
+    max-height: 732px;
+}
 /* section 3 */
 /* .portfolio {
     display: flex;
@@ -202,11 +230,13 @@ max-height: 380px;
     max-width: 1158px;
 }  */
 .container .portfolio{
+    padding-top: 120px;
     flex-direction: row;
     max-width: 1158px;
     max-height: 1240px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 80px;
 } 
 
 .portfolio{
@@ -243,24 +273,24 @@ max-height: 380px;
 .ls-color {
     color: #FFFFFF;
     background-color: #ffffff;
+    margin-top: 0px;
 
 }
 
-/* тут проблема! */
 .portfolio .ls-color-1{
     display: flex;
     flex-wrap:wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin-top: 0px;
 }
 .container .portfolio{
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
 } 
     
 /* footer */
-.web_footer {
+/* .web_footer {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -280,11 +310,50 @@ max-height: 380px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    height: 312px;
 }
 .footer_p {
-    background-color: #2E2F42;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+footer .container{
+        padding: 188px 0;
+        width: 496px;
+        padding-left: 331px;
+        padding-right: 331px;
+        margin-bottom: 0;
+        height: 312px;
+        min-width: 1158px;
+        background-color: #2E2F42;
+} */
+.web_footer {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 18px
+}
+.studio_footer{
+    color: #F4F4FD;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    padding-right: 72px;
+}
+.footer_p{
+    background-color: #2E2F42;
+    color:#F4F4FD;
+    height: 312px;
+    min-width: 1158px;
+    padding-top: 102px;
+    padding-right: 72px;
+}
+.footer_p_1{
+    padding-right: 72px;
+}
+.newline {
+    display: block;
 }
