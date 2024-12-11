@@ -195,15 +195,15 @@ font-family: "Raleway", sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    padding-left: auto 0;
-    padding-right: auto 0;
+    padding: 120px 0 120px;
+    margin-bottom: 72px
 }
 .team ul{
-margin-top: 72px;
-gap: 16px;
 display: flex;
 max-width: 264px;
 max-height: 380px;
+gap: 24px;
+margin-right: 24px;
 }
 .container h2{
 }
@@ -219,6 +219,7 @@ max-height: 380px;
     color: #2e2f42;
     padding-top: 120px;
     padding-bottom: 0px;
+    
 }
 .names{
     font-weight: 500;
@@ -293,7 +294,10 @@ max-height: 380px;
     color: #FFFFFF;
     background-color: #ffffff;
     margin-top: 0px;
-
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .portfolio .ls-color-1{
@@ -302,6 +306,7 @@ max-height: 380px;
     column-gap: 24px;
     row-gap: 48px;
     margin-top: 0px;
+    
 }
 .container .portfolio{
     max-width: 1158px;
