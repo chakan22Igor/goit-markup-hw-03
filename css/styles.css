@@ -371,6 +371,7 @@ footer .container{
         background-color: #2E2F42;
 } */
 .web_footer {
+    display: inline-block;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -380,10 +381,11 @@ footer .container{
     font-size: 18px
 }
 .studio_footer{
+    display: inline-block;
     color: #F4F4FD;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    padding-right: 72px;
+    padding: 100px 0 100px
 }
 .footer_p{
     background-color: #2E2F42;
@@ -393,8 +395,9 @@ footer .container{
     padding-top: 102px;
     padding-right: 72px;
 }
-.footer_p_1{
+.footer_p_i{
     padding-right: 72px;
+    max-width: 264px
 }
 .newline {
     display: block;
