@@ -206,8 +206,10 @@ max-width: 264px;
 max-height: 380px;
 gap: 24px;
 margin-right: 24px;
+margin-bottom: 72px;
 }
 .container h2{
+    
 }
 .teamheader {
     text-align: center;
