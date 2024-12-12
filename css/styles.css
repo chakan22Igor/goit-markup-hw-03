@@ -262,6 +262,10 @@ margin-bottom: 72px;
     justify-content: center;
     padding-bottom: 80px;
 } 
+.portfolio .container{
+    padding: 32px 0 32px;
+    text-align: center;
+}
 
 .portfolio{
     background-color: #ffffff;
@@ -272,6 +276,7 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .services{
     font-size: 36px;
