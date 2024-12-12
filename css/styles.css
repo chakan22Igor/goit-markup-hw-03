@@ -29,13 +29,16 @@ address{
 }
 /* header */
 nav{
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     margin-right: auto;
+}
+.nav li{
+    margin-right: 40px
 }
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
     display: flex;
@@ -198,7 +201,8 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     color:#2e2f42;
     padding: 120px 0 120px;
-    margin-bottom: 72px
+    margin-bottom: 72px;
+    width: calc((100% - 72px) / 4);
 }
 .team ul{
 display: flex;
@@ -311,7 +315,9 @@ margin-bottom: 72px;
     text-align: center;
     flex-basis: calc((100% - 72px) / 4))
 }
-
+.ls-color .container{
+    display: block;
+}
 .portfolio .ls-color-i{
     display: flex;
     flex-wrap:wrap;
