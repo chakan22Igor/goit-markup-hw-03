@@ -215,6 +215,7 @@ font-family: "Raleway", sans-serif;
     line-height: 120%;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 .paragraphben {
     align-items: center;
@@ -253,7 +254,6 @@ margin-right: 0
     height: 104px ;
     margin-left: 15px;
     align-items: center;
-    width: calc((100% - 72px) / 4);
 }
 /* section 3 */
 
@@ -296,7 +296,7 @@ margin-right: 0
 /* section 4 */
 .portfolio{
     padding-top: 120px; 
-    padding-bottom: 120px;
+    padding-bottom: 120px;  
 }
 .container .portfolio{
     margin-bottom: 72px;
@@ -309,6 +309,10 @@ margin-right: 0
     column-gap: 24px;
     row-gap: 48px;
 }
+.ls-color-o:nth-child(3){
+    margin-right: 0;
+    margin-bottom: 0;
+}
 .serv-head{
     margin-bottom: 8px
 }
@@ -317,9 +321,9 @@ margin-right: 0
 .portfolio-list{
     margin-bottom: 48px;
     row-gap: 48px;
-    column-gap: 24px;
+    margin-right: 24px;
 }
-.portfolio-list-two{
+.portfolio-list:last-child{
     margin-bottom: 0px;
 }
 .containerportfolio{
