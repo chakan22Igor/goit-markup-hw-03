@@ -25,11 +25,11 @@ address{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    border-bottom: 1px solid #e7e9fc;
     
 }
 /* header */
-.header{
+
+.container > .header{
     display: flex;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
