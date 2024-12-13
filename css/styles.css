@@ -118,8 +118,9 @@ font-family: "Raleway", sans-serif;
 .li{
     gap: 40px;
 }
-.li-last{
+.li:last-child{
     margin-right: 0px;
+    gap: 0px;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
