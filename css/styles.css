@@ -28,6 +28,9 @@ address{
     
 }
 /* header */
+.header{
+    display: flex;
+}
 nav{
     display: flex;
     margin-right: auto;
