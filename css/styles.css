@@ -191,16 +191,15 @@ font-family: "Raleway", sans-serif;
 .visually-hidden{
     display: none;
 }
-.hero .container{
+.hero{
     display: block;
     justify-content: center;
     max-width: 496px;
-    padding-left: 331px;
-    padding-right: 331px;
     margin-bottom: 0;
     min-height: 599px;
     min-width: 1158px;
     background-color: #2E2F42;
+    padding: 188px 0
 }
 /* section 2 */
 
