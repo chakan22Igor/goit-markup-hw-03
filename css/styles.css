@@ -119,7 +119,7 @@ font-family: "Raleway", sans-serif;
     gap: 40px;
 }
 .li-last{
-    margin-right:0;
+    margin-right: 0px;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
