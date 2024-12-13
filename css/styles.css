@@ -173,10 +173,9 @@ font-family: "Raleway", sans-serif;
     cursor:pointer;
 }
 /* section 1 */
-.listben{
+/* .listben{
+    display: flex;
     background-color: #FFFFFF;
-    gap: 24px;
-    padding: 120px 0 120px
 }
 .container .listben{
     display: flex;
@@ -197,7 +196,25 @@ font-family: "Raleway", sans-serif;
     min-width: 1158px;
     background-color: #2E2F42;
     padding: 188px 0;
+} */
+
+.sectionbenefits {
 }
+.sectionbenefits  .container {
+    display: flex;
+
+}
+.visually-hidden {
+    display: none;
+}
+.listben {
+}
+.benefits {
+}
+.paragraphben {
+}
+
+
 /* section 2 */
 
 
