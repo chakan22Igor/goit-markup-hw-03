@@ -141,6 +141,7 @@ font-family: "Raleway", sans-serif;
 
 }
 .hero{
+    display: flex;
     padding: 188px 0;
     font-family:"Roboto", sans-serif;
     font-weight: 700;
@@ -153,6 +154,7 @@ font-family: "Raleway", sans-serif;
     padding-bottom: 0;
 } 
 .container > .hero{
+    display: flex;
     padding: 188px 0
 }
 .container .button{
@@ -165,10 +167,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:focus{
-    background-color: #404BBF;
-    cursor: pointer;
-}
+.button:focus,
 .button:hover{
     background-color: #404BBF;
     cursor:pointer;
@@ -192,9 +191,7 @@ font-family: "Raleway", sans-serif;
     display: none;
 }
 .hero{
-    display: block;
     justify-content: center;
-    max-width: 496px;
     margin-bottom: 0;
     min-height: 599px;
     min-width: 1158px;
