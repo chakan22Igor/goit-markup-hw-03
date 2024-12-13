@@ -215,7 +215,6 @@ font-family: "Raleway", sans-serif;
     line-height: 120%;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 .paragraphben {
     align-items: center;
@@ -258,6 +257,7 @@ margin-right: 0
     height: 104px ;
     margin-left: 15px;
     align-items: center;
+    width: calc((100% - 72px) / 4);
 }
 /* section 3 */
 
