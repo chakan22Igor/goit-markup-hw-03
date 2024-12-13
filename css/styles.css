@@ -294,14 +294,12 @@ margin-right: 0
     
 }
 .serv-head{
-    margin-bottom: 8px
 }
 .ser-p{
 }
 .portfolio-list{
     gap: 24px;
     margin-bottom: 48px;
-    column-gap: 24px;
 }
 .portfolio-list-two{
     margin-bottom: 0px;
@@ -309,7 +307,6 @@ margin-right: 0
 .containerportfolio{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
 }
 /* footer */
 
