@@ -28,16 +28,6 @@ address{
     
 }
 /* header */
-.header  .container {
-    display: flex;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
 nav{
     display: flex;
     margin-right: auto;
@@ -121,6 +111,16 @@ font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.header  .container {
+    display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 /* Hero */
