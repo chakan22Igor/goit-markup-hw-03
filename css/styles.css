@@ -239,6 +239,9 @@ margin-right: 0
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.ls-color-i{
+    display: flex;
+}
 /* section 3 */
 
 
@@ -285,9 +288,10 @@ margin-right: 0
 }
 .container{
 }
-.ls-color-i{
+.ls-color-o{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .serv-head{
 }
@@ -295,9 +299,16 @@ margin-right: 0
 }
 .portfolio-list{
     gap: 24px;
-    margin-right: 0;
+    margin-bottom: 48px;
 }
-
+.portfolio-list-two{
+    margin-bottom: 0px;
+}
+.containerportfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 /* footer */
 
 .web_footer {
