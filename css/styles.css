@@ -34,10 +34,10 @@ nav{
     border-bottom: 1px solid #e7e9fc;
     margin-right: 40px
 }
-.nav li{
+.li{
     margin-right: 40px
 }
-.nav li:nth-last-child{
+.li:nth-last-child{
     margin-right:0;
     
 }
