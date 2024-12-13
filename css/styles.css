@@ -32,12 +32,14 @@ nav{
     display: flex;
     margin-right: auto;
     border-bottom: 1px solid #e7e9fc;
+    margin-right: 40px
 }
 .nav li{
     margin-right: 40px
 }
 .nav li:nth-last-child{
     margin-right:0;
+    
 }
 .header-container {
     display: flex;
@@ -45,7 +47,7 @@ nav{
 }
 .navigation {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .navigation-list {
     gap: 40px;
@@ -122,7 +124,6 @@ font-family: "Raleway", sans-serif;
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
 /* Hero */
 .hero .container{
     display: block;
