@@ -118,7 +118,7 @@ font-family: "Raleway", sans-serif;
 .li{
     gap: 40px;
 }
-.li:nth-last-child{
+.li-last{
     margin-right:0;
 }
 .header {
