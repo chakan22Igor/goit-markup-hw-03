@@ -243,15 +243,16 @@ margin-right: 0
 
 
 .team{
-    padding: 120px 0;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .team ul{
 
 }
-.container h2{
-    
+.team .container{
+    padding: 32px 0 32px;
 }
-.teamheader {
+.teamheader{
 
     
 }
@@ -265,19 +266,19 @@ margin-right: 0
     max-height: 732px;
 }
 /* section 4 */
-.portfolio {
+.portfolio{
 
 }
-.container {
+.container{
 }
-.ls-color-i {
+.ls-color-i{
     display: flex;
     gap: 24px;
     margin-right: 0;
 }
-.serv-head {
+.serv-head{
 }
-.ser-p {
+.ser-p{
 }
 .ls-color{
     width: calc((100% - 72px) / 4);
