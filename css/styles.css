@@ -288,12 +288,14 @@ margin-right: 0
 .ls-color-i{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-right: 0;
 }
 .serv-head{
 }
 .ser-p{
+}
+.portfolio-list{
+    gap: 24px;
+    margin-right: 0;
 }
 
 /* footer */
