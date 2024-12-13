@@ -115,10 +115,10 @@ font-family: "Raleway", sans-serif;
     padding-right: 15px;
     margin: 0 auto;
 }
-.li{
+.list{
     gap: 40px;
 }
-.li:last-child{
+.lis:last-child{
     margin-right: 0px;
     gap: 0px;
 }
