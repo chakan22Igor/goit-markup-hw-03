@@ -29,22 +29,20 @@ address{
 }
 /* header */
 nav{
-
     display: flex;
     margin-right: auto;
+    border-bottom: 1px solid #e7e9fc;
 }
 .nav li{
     margin-right: 40px
 }
 .nav li:nth-last-child{
-    margin: 0px;
-    margin-right: 0
+    margin-right:0;
 }
-.container .header {
+.header-container {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-
 }
 .navigation {
     display: flex;
@@ -52,7 +50,7 @@ nav{
 }
 .navigation-list {
     gap: 40px;
-    margin-right: 40px;
+    margin-right: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
