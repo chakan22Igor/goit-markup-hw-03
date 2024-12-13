@@ -29,16 +29,21 @@ address{
 }
 /* header */
 nav{
-    border-bottom: 1px solid #e7e9fc;
+
     display: flex;
     margin-right: auto;
 }
 .nav li{
     margin-right: 40px
 }
+.nav li:nth-last-child{
+    margin: 0px;
+    margin-right: 0
+}
 .header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
     display: flex;
@@ -332,44 +337,7 @@ margin-bottom: 72px;
 } 
     
 /* footer */
-/* .web_footer {
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-size: 18px
-}
-.studio_footer{
-    color: #F4F4FD;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-}
-.footer{
-    background-color: #2E2F42;
-    color:#F4F4FD;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    height: 312px;
-}
-.footer_p {
-    color: #F4F4FD;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-footer .container{
-        padding: 188px 0;
-        width: 496px;
-        padding-left: 331px;
-        padding-right: 331px;
-        margin-bottom: 0;
-        height: 312px;
-        min-width: 1158px;
-        background-color: #2E2F42;
-} */
+
 .web_footer {
     display: inline-block;
     color: #4D5AE5;
