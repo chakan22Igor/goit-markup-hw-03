@@ -126,17 +126,7 @@ font-family: "Raleway", sans-serif;
     border-bottom: 1px solid #e7e9fc;
 }
 /* Hero */
-.hero .container{
-    display: block;
-    justify-content: center;
-    max-width: 496px;
-    padding-left: 331px;
-    padding-right: 331px;
-    margin-bottom: 0;
-    min-height: 599px;
-    min-width: 1158px;
-    background-color: #2E2F42;
-}
+
 .hero .button{
     display: block;
     border:none;
@@ -166,7 +156,7 @@ font-family: "Raleway", sans-serif;
 
 }
 .container .button{
-    display: flex;
+    display: block;
     color:#ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -200,6 +190,17 @@ font-family: "Raleway", sans-serif;
 }
 .visually-hidden{
     display: none;
+}
+.hero .container{
+    display: block;
+    justify-content: center;
+    max-width: 496px;
+    padding-left: 331px;
+    padding-right: 331px;
+    margin-bottom: 0;
+    min-height: 599px;
+    min-width: 1158px;
+    background-color: #2E2F42;
 }
 /* section 2 */
 
