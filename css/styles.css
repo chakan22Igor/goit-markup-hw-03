@@ -308,6 +308,7 @@ margin-right: 0
 }
 .container .portfolio{
     margin-bottom: 72px;
+    padding-left: 470px;
 }
 .container{
 }
@@ -334,8 +335,6 @@ margin-right: 0
 .portfolio-list{
     padding-left: 0;
     margin-bottom: 48px;
-    row-gap: 48px;
-    margin-right: 24px;
 }
 .portfolio-list:last-child{
     margin-bottom: 0px;
