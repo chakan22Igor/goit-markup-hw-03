@@ -255,7 +255,6 @@ margin-right: 0
 .listben {
     padding-left: 0;
     align-items: center;
-    width: calc((100% - 72px) / 4);
 }
 /* section 3 */
 
