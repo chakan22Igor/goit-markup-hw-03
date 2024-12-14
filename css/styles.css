@@ -260,6 +260,7 @@ margin-right: 0
 
 
 .team{
+    background-color: #F4F4FD;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
@@ -279,6 +280,12 @@ margin-right: 0
 }
 .team-p{
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 .team .container{
     max-height: 732px;
@@ -315,11 +322,17 @@ margin-right: 0
     margin-bottom: 0;
 }
 .serv-head{
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .ser-p{
 }
 .portfolio-list{
+    padding-left: 0;
     margin-bottom: 48px;
     row-gap: 48px;
     margin-right: 24px;
@@ -334,10 +347,8 @@ margin-right: 0
     margin-bottom: 8px;
 }
 /* footer */
-
 .web_footer {
     display: inline-block;
-    margin-bottom: 16px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -348,22 +359,25 @@ margin-right: 0
 }
 .studio_footer{
     display: inline-block;
-    margin-bottom: 16px;
     color: #F4F4FD;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    padding: 100px 0 100px
 }
 .footer_p{
+    display: block;
     background-color: #2E2F42;
     color:#F4F4FD;
-    height: 312px;
-    min-width: 1158px;
-    padding: 100px 0 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;    
 }
+
 .footer_p_i{
-    padding-right: 72px;
-    max-width: 264px
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    margin-bottom: 0px;
 }
 .newline {
     display: block;
