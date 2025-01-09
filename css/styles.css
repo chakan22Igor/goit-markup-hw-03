@@ -254,6 +254,7 @@ margin-right: 0
 .listben {
     padding-left: 0;
     align-items: center;
+    width: calc((100% - 72px) / 4);
 }
 /* section 3 */
 
@@ -276,9 +277,9 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 72px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 72px;
     
 }
 .names{
@@ -312,11 +313,17 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 .portfolio{
-  margin-bottom: 72px;
+
 
 }
 .container .portfolio{
-    padding-left: 470px;
+    text-align: center;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .container{
 }
@@ -360,7 +367,8 @@ padding-bottom: 120px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-size: 18px
+    font-size: 18px;
+    margin-bottom: 16px;
 }
 .studio_footer{
     display: inline-block;
