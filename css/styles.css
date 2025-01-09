@@ -12,10 +12,6 @@ ul, ol{
  padding-left: 0;
  margin: 0px;
 }
-h1,h2,h3,h4,h5,h6,p{
-margin-left: 0px;
-margin-right: 0px;
-}
 a{
 text-decoration: none;
 }
@@ -72,7 +68,7 @@ margin-right: auto;
 }
 address ul{
     display: flex;
-    margin-left: 0px;
+    margin: 0px;
     gap: 40px;
 }
 .telmail {
@@ -312,6 +308,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 .portfolio{
+  margin-bottom: 72px;
 
 }
 .container .portfolio{
@@ -338,6 +335,8 @@ padding-bottom: 120px;
     color: #434455;
 }
 .ser-p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .portfolio-list{
     padding-left: 0;
@@ -349,7 +348,6 @@ padding-bottom: 120px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 /* footer */
 .web_footer {
